@@ -1,0 +1,245 @@
+/* *************************************
+            ABOUT US PAGE
+***************************************/
+
+.about-title {
+  text-align: center;
+  font-size: 4rem;
+  margin-bottom: 4rem;
+  padding: 4rem 0.5rem 2rem 0.5rem;
+  color: #0b900b;
+}
+
+.family-image {
+  width: 100%;
+}
+
+.about-sub-title {
+  text-align: center;
+  font-size: 3.5rem;
+  margin-top: -5rem;
+  margin-bottom: 1rem;
+  font-style: italic;
+}
+
+.family-blurb-box {
+  position: relative;
+}
+
+.family-blurb {
+  margin: -3rem auto 0 auto;
+  padding: 2rem 4rem;
+  border: 2px solid black;
+  background-color: rgb(229, 229, 229);
+  width: 60%;
+}
+
+.family-blurb p {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 2.4rem;
+  line-height: 1.2;
+  letter-spacing: 1px;
+}
+
+.family-blurb p:nth-child(2) {
+  font-weight: bold;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.flex-ed-details {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+.ed-details-box {
+  margin: 5rem 0 0;
+  display: flex;
+  gap: 5rem;
+}
+
+.ed-img {
+  width: 40rem;
+  height: auto;
+}
+
+.my-info-text {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.my-info-text p {
+  margin-top: 1rem;
+}
+
+.my-info-text p a:hover {
+  color: #0b900b;
+  text-decoration: underline;
+}
+
+.isa-arborist {
+  margin-top: 2rem;
+  height: auto;
+  width: 10rem;
+}
+
+.headquarters-box {
+  margin-top: 10rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+.headquarters-box h4 {
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+
+.headquarters-box p,
+h4 {
+  text-align: center;
+}
+
+.headquarters-box img {
+  width: 75%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.headquarters-box p {
+  letter-spacing: 0.75px;
+  margin-top: 5px;
+}
+
+
+.family-image {
+  width: 100%;
+  height: auto;
+}
+
+
+
+
+/* smaller than 768 pixels */
+
+@media (max-width: 49em) {
+  .about-title {
+    font-size: 3rem;
+  }
+
+  .about-sub-title {
+    font-size: 2.2rem;
+  }
+
+  .family-blurb {
+    line-height: 1.2;
+    letter-spacing: 1px;
+    margin: -3rem auto 0 auto;
+    padding: 1rem 2rem;
+    width: 80%;
+  }
+
+  .family-blurb p {
+    font-size: 1.8rem;
+  }
+
+  .ed-details-box {
+    gap: 2rem;
+  }
+
+  .ed-img {
+    max-height: 20rem;
+    width: auto;
+  }
+
+  .isa-arborist {
+    width: 5rem;
+    height: auto;
+  }
+
+  .my-info-text {
+    gap: 0.6rem;
+  }
+
+  .my-info-text p {
+    margin: 0;
+  }
+
+  .headquarters-box h2, p {
+    font-size: 1.6rem;
+  }
+}
+
+/* smaller than 560px */
+
+@media (max-width: 35em) {
+
+  .family-blurb-box {
+    width: 100%;
+  }
+  .family-blurb {
+    width: 80%;
+    margin: 3rem auto;
+  }
+
+  .family-blurb p {
+    letter-spacing: .5px;
+    font-size: 1.6rem;
+  }
+
+  .ed-details-box {
+    display: grid;
+  }
+
+  .my-info-text p {
+    font-size: 1.6rem;
+  }
+
+  .headquarters-box {
+    margin: 6rem 2rem 0 2rem;
+  }
+
+  .headquarters-box h4, p {
+    font-size: 1.4rem;
+  }
+}
+
+/* smaller than 480px */
+@media (max-width: 30em){
+
+.about-title {
+  font-size: 2.2rem;
+  padding: 1.5rem .5rem 1rem .5rem;
+}
+
+.about-sub-title {
+  font-size: 1.8rem;
+} 
+  
+}
+
+/* *****************
+      below 345px
+********************** */
+
+@media(max-width: 22em) {
+
+  .family-blurb {
+    padding: .4rem;
+  }
+
+  .headquarters-box {
+    border: none;
+    margin: none;
+  }
+
+  .headquarters-box img {
+    width: 100%;
+  }
+}

@@ -1,0 +1,35 @@
+<section class="section-2">
+      <div class="section-2-container">
+        <img
+          src="images/home/trailer.jpg"
+          alt="seasoned firewood in Cherry Valley, IL"
+          class="firewood-img"
+          height="676";
+          width="1200";
+        />
+        <div class="firewood-text-box">
+          <h2>Firewood</h2>
+          <p class="firewood-pricing">$130/Facecord Delivered</p>
+          <p class="firewood-pricing">$370/Cord Delivered</p>
+          <div class="firewood-description">
+            <p>Our seasoned hardwood is ready to burn!</p>
+            <p>
+              Call
+              <a href="tel:815-997-7707" class="firewood-call-link"
+                >815-997-7707</a
+              >
+              for additional information.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+///////////* EQUIPMENT GALLERY TEXT *///////////
+    <div class="section-5-text-box">
+        <h2>Tree Service Equipment</h2>
+        <p>
+          Easy Eddy's Tree Service is equipped to take on trees of any size. Every day we
+          dedicate time to service and maintenance to ensure our machinery is always in working order to meet customer needs. We operate using heavy duty trucks, modern brush chippers, state of the art communications headsets, and a compact Bobcat for handling logs and large branches in customer lawns.
+        </p>
+      </div>
